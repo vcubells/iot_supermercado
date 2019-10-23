@@ -70,25 +70,45 @@ wget https://pki.google.com/roots.pem
 ### 3.2. Generación de recursos en GCP
 
 1. Cree un proyecto en la [Consola de Google Cloud Platform](https://console.cloud.google.com). Póngale el nombre y ID que usted prefiera. Copie el ID del proyecto y guárdelo porque lo utilizará más adelante.
+
 ![Obtener ID del proyecto](img/demo_05_01.png)
-2. Dentro de la  consola, en el menú de la izquierda, localice el grupo titulado **BIG DATA** y seleccione la opción Cloud IoT.
+
+2. Dentro de la  consola, en el menú de la izquierda, localice el grupo titulado **BIG DATA** y seleccione la opción IoT Core.
+
 ![Acceder a Cloud IoT](img/demo_05_02.png)
+
 3. Cree un registro de dispositivos en Cloud IoT.
+
 ![Crear Registro en Cloud IoT](img/demo_05_03.png)
+
 4. Cree un tópico nuevo en Pub/Sub.
+
 ![Crear tópico nuevo](img/demo_05_04.png)
+
 ![Crear tópico en Pub/Sub](img/demo_05_05.png)
-5. Seleccione el registro recien creado.
+
+5. Seleccione el registro recién creado.
+
 ![Adicionar un dispositivo en Cloud IoT](img/demo_05_06.png)
+
 6. Adicione un nuevo dispositivo dentro de la sección **Dispositivos** del registro creado.
+
 ![Adicionar un dispositivo en Cloud IoT](img/demo_05_07.png)
+
 7. Especifique los parámetros como se muestra en la siguiente figura. No olvide subir en la sección de *Autenticación* la llave pública (archivo `demo.pub`) que generó previamente.
+
 ![Parámetros del dispositivo en Cloud IoT](img/demo_05_08.png)
+
 8. Dentro de la  consola, en el menú de la izquierda, localice el grupo titulado **BIG DATA** y seleccione la opción Pub/Sub.
+
 ![Acceder a Pub/Sub](img/demo_05_09.png)
+
 9. Localice el tópico creado en el paso 4 y dentro del menú de tres puntos que aparece a la derecha, seleccione la opción **Crear subscripción**.
+
 ![Crear subscripción](img/demo_05_10.png)
+
 10. Especifique los parámetros que aparecen señalados en la siguiente imagen y luego seleccione el botón **Crear**.
+
 ![Parámetros de la subscripción](img/demo_05_11.png)
 
 ### 3.3. Ejecutar el demo en su laptop o desktop
@@ -110,12 +130,15 @@ device_id = 'rpi'
 python simulate_pi.py
 ```
 4. Si todo está bien, verá en la pantalla una salida como la siguiente:
+
 ![Ejecución del código](img/demo_05_12.png)
+
 5. Verifique que los mensajes se están ingestando en el tópico de Pub/Sub correctamente:
 ```
 gcloud beta pubsub subscriptions pull --auto-ack telemetry
 ```
 Salida:
+
 ![Salida de Pub/Sub](img/demo_05_13.png)
 
 ### 3.4. Felicidades!!! 
