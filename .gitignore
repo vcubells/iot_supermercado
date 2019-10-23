@@ -1,0 +1,9 @@
+.vcode
+.env
+*.py[cod]
+__pycache__/
+.DS_Store
+*.pem
+*.pub
+.git
+env
