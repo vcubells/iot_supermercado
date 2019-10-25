@@ -83,7 +83,7 @@ cd iot_supermercado/demo_06
 
 ![Parámetros de la tabla](img/demo_06_10.png)
 
-13. Seleccione el nombre de la tabla recién creada y en la sección **Esquema** verá la estructura de la misma..
+13. Seleccione el nombre de la tabla recién creada y en la sección **Esquema** verá la estructura de la misma.
 
 ![Esquema de la tabla](img/demo_06_11.png)
 
