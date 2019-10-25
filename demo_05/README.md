@@ -2,7 +2,7 @@
 
 Este demo muestra como ingestar datos de sensores en un servicio en la nube utilizando [Cloud IoT](https://cloud.google.com/solutions/iot/) y [Pub/Sub](https://cloud.google.com/pubsub/) en [Google Cloud Platform](https://cloud.google.com/). 
 
-
+![Arquitectura](img/diagrama_demo_05.png)
 
 ## 1. Pre-requisitos
 

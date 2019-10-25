@@ -2,6 +2,8 @@
 
 Este demo muestra como ejecutar una consulta en [BigQuery](https://cloud.google.com/bigquery/) y, a partir de los resultados, generar un dashboard en [Data Studio](https://datastudio.google.com/).  
 
+![Arquitectura](img/diagrama_demo_07.png)
+
 IMPORTANTE!!!
 
 Este demo es una continuación del [demo_06](../demo_06), por lo tanto, utiliza los recursos generados en el mismo. Si aún no ha realizado el [demo_06](../demo_06), necesita comenzar por ahí.

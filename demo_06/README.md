@@ -1,6 +1,8 @@
 # Demo 6. Procesamiento y almacenamiento de datos en la nube
 
-Este demo muestra como ejecutar una función en [Cloud Functions](https://cloud.google.com/functions/) cada vez que se recibe un mensaje en [Pub/Sub](https://cloud.google.com/pubsub/) y como almacenar los datos recibidos en [BigQuery](https://cloud.google.com/bigquery/).
+Este demo muestra como ejecutar una función en [Cloud Functions](https://cloud.google.com/functions/) cada vez que se recibe un mensaje en [Pub/Sub](https://cloud.google.com/pubsub/) y como almacenar los datos recibidos en [BigQuery](https://cloud.google.com/bigquery/)
+
+![Arquitectura](img/diagrama_demo_06.png)
 
 IMPORTANTE!!!
 
