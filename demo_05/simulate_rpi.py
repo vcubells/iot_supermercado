@@ -7,9 +7,9 @@ import paho.mqtt.client as mqtt
 import random
 
 # Define some project-based variables
-ssl_private_key_filepath = '/Users/vcubells/Developer/iot/demo_private.pem'
+ssl_private_key_filepath = '/Users/vcubells/Developer/iot/iot_supermercado/demo_05/demo_private.pem'
 ssl_algorithm = 'RS256'  # Either RS256 or ES256
-root_cert_filepath = '/Users/vcubells/Developer/iot/roots.pem'
+root_cert_filepath = '/Users/vcubells/Developer/iot/iot_supermercado/demo_05/roots.pem'
 project_id = 'test-vcn-249912'
 gcp_location = 'us-central1'
 registry_id = 'semana-i'
@@ -62,7 +62,7 @@ client.on_publish = on_publish
 
 # Replace this with 3rd party cert if that was used when creating registry
 client.tls_set(ca_certs=root_cert_filepath)
-client.connect('mqtt.googleapis.com', 8883)
+client.connect('mqtt.googleapis.com', 443)
 client.loop_start()
 
 # Could set this granularity to whatever we want based on device, monitoring needs, etc
