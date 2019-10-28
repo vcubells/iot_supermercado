@@ -1,6 +1,6 @@
 # Demo 3. Captura de imágenes y almacenamiento en la nube
 
-Este demo podremos utilizar un script que capture una imagen desde una [Webcam USB](https://www.raspberrypi.org/documentation/usage/webcams/) que posteriormente se enviara a un repo en [Firebase](https://firebase.google.com)
+Este demo podremos utilizar un script que capture una imagen desde una [Webcam USB](https://www.raspberrypi.org/documentation/usage/webcams/) que posteriormente se enviara a un repositorio en [Firebase](https://firebase.google.com)
 
 
 
@@ -16,12 +16,12 @@ Este demo podremos utilizar un script que capture una imagen desde una [Webcam U
 
 A continuación se describen los archivos que forman parte del demo, así como la función que juega cada uno de ellos:
 
-* [fswebcam](https://www.raspberrypi.org/documentation/usage/webcams/): Comando que permite ajecutar la captura de imagen de una webcam. 
+* [fswebcam](https://www.raspberrypi.org/documentation/usage/webcams/): Comando que permite ejecutar la captura de imagen de una webcam. 
 * [Firebase_upload_file](02_Firebase_upload.py): Codigo base para enviar una imagen.
 
 ## 3. Instrucciones de uso
 
-* 1.- Instalar el pacquete [fswebcam](https://www.raspberrypi.org/documentation/usage/webcams/) 
+* 1.- Instalar el paquete [fswebcam](https://www.raspberrypi.org/documentation/usage/webcams/) 
 
     `sudo apt install fswebcam
 ` 

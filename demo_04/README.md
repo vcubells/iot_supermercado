@@ -16,9 +16,9 @@ Este demo utilizaremos la practica [Firebase_upload](02_Firebase_upload.py) para
 
 A continuación se describen los archivos que forman parte del demo, así como la función que juega cada uno de ellos:
 
-* [fswebcam](https://www.raspberrypi.org/documentation/usage/webcams/): Comando que permite ajecutar la captura de imagen de una webcam. 
-* [Firebase_upload_file](02_Firebase_upload.py): Codigo base para enviar una imagen.
-* [Cognitive_services](03_cognitive_services.py): Codigo base para enviar una imagen.
+* [fswebcam](https://www.raspberrypi.org/documentation/usage/webcams/): Comando que permite ejecutar la captura de imagen de una webcam. 
+* [Firebase_upload_file](02_Firebase_upload.py): Código base para enviar una imagen.
+* [Cognitive_services](03_cognitive_services.py): Código base para enviar una imagen.
 * [API de prueba](https://westus.dev.cognitive.microsoft.com/docs/services/5adf991815e1060e6355ad44/operations/56f91f2e778daf14a499e1fa): Analizar el funcionamiento del API
 
 ## 3. Instrucciones de uso

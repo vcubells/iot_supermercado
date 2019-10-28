@@ -16,15 +16,15 @@ Este demo aprenderemos como configurar desde cero nuestra Raspberry Pi.
 * Tener instalado `git`, `python 3.7`, `pip`, `wget` y `openssl`.
 * Teclado y mouse.
 * Tener instalado VNC para el acceso remoto. (`opcional`)
-* Instalar las librerias extras
+* Instalar las librerías extras
 ## 2. Estructura del proyecto
 
 A continuación se describen los archivos que forman parte del demo, así como la función que juega cada uno de ellos:
-- [01_Sensors.py](01_Sensors.py): En este archivo tenemos las configuraciones basicas para el uso de hardware
+- [01_Sensors.py](01_Sensors.py): En este archivo tenemos las configuraciones básicas para el uso de hardware
 (`boton`, `web_cam`,`led`, [DHT_SENSOR](https://github.com/adafruit/Adafruit_Python_DHT)).
 
 - [02_Firebase-upload.py](02_Firebase_upload.py): Este documento contiene la configuracion para enviar un archivo a firebase.
-- [03_Cognitive-services.py](03_cognitive_services.py): Con este archivo podras enviar peticiones a servicios cognitivos de Microsoft Azure [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/).
+- [03_Cognitive-services.py](03_cognitive_services.py): Con este archivo podrás enviar peticiones a servicios cognitivos de Microsoft Azure [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/).
 
 
 ## 3. Instrucciones de uso
